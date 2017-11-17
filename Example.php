@@ -1,4 +1,5 @@
 <?php
+require "PHP-Feeds.php";
 
 // Downloading The Feed
 $ch = curl_init();
