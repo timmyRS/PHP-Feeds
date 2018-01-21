@@ -26,7 +26,7 @@ echo "The 10 most recent articles of ".$feed->name.":\n";
 $i = 0;
 foreach($feed->getArticles() as $article)
 {
-	echo "- ".$article->getName();
+	echo "- ".$article->getName()." <".$article->getLink().">\n";
 	if($i++ == 10)
 	{
 		break;
